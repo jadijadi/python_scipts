@@ -7,7 +7,7 @@ def diceImage(dicenumber,dicesize):
 
 dicew = 100
 
-im = Image.open("/tmp/image.png")
+im = Image.open("image.png")
 im = ImageOps.grayscale(im)
 im = ImageOps.equalize(im)
 
